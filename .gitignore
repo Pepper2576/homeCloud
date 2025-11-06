@@ -1,0 +1,17 @@
+# Never commit these
+.env
+*.env
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore data directories
+data/
+db/
+*/data/
+
+# Temporary files
+*.tmp
+*.swp
+*~
